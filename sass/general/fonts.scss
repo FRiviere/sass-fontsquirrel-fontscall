@@ -1,0 +1,62 @@
+@mixin font-weight($weight) {
+    $newWeight: null;
+    @if $weight == lighter {
+        $newWeight: 200;
+    } @else if $weight == light {
+        $newWeight: 300;
+    } @else if $weight == normal {
+        $newWeight: normal;
+    } @else if $weight == semibold {
+        $newWeight: 600;
+    } @else if $weight == bold {
+        $newWeight: 700;
+    } @else if $weight == bolder {
+        $newWeight: 800;
+    }
+    font-weight: $newWeight;
+}
+
+@mixin font-face ($name, $thatWeight:null, $style:null){
+    $thatNeWeight: null;
+    @if $thatWeight == lighter {
+        $thatNeWeight: extralight;
+    } @else if $thatWeight == light {
+        $thatNeWeight: light;
+    } @else if $thatWeight == normal {
+        $thatNeWeight: regular;
+    } @else if $thatWeight == semibold {
+        $thatNeWeight: semibold;
+    } @else if $thatWeight == bold {
+        $thatNeWeight: bold;
+    } @else if $thatWeight == bolder {
+        $thatNeWeight: black;
+    }
+
+    $newStyle: $style;
+    @if $style == normal {
+        $newStyle: null;
+    }
+
+    @font-face {
+        font-family: $name;
+        src: url('../../fonts/#{$name}-#{$thatNeWeight}#{$newStyle}.eot');
+        src: url('../../fonts/#{$name}-#{$thatNeWeight}#{$newStyle}.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/#{$name}-#{$thatNeWeight}#{$newStyle}.woff') format('woff'),
+        url('../../fonts/#{$name}-#{$thatNeWeight}#{$newStyle}.ttf') format('truetype');
+        @include font-weight($thatWeight);
+        font-style: $style;
+    }
+}
+
+@include font-face('SourceSansPro', lighter, normal);
+@include font-face('SourceSansPro', lighter, italic);
+@include font-face('SourceSansPro', light, normal);
+@include font-face('SourceSansPro', light, italic);
+@include font-face('SourceSansPro', normal, normal);
+@include font-face('SourceSansPro', normal, italic);
+@include font-face('SourceSansPro', semibold, normal);
+@include font-face('SourceSansPro', semibold, italic);
+@include font-face('SourceSansPro', bold, normal);
+@include font-face('SourceSansPro', bold, italic);
+@include font-face('SourceSansPro', bolder, normal);
+@include font-face('SourceSansPro', bolder, italic);
