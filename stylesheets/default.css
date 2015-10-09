@@ -3,86 +3,86 @@ autor: Florian Riviere - FRiviere
 Bitbucket: https://github.com/FRiviere/
 */
 @font-face {
-  font-family: "SourceSansPro";
-  src: url("../../fonts/SourceSansPro-extralight.eot");
-  src: url("../../fonts/SourceSansPro-extralight.eot?#iefix") format("embedded-opentype"), url("../../fonts/SourceSansPro-extralight.woff") format("woff"), url("../../fonts/SourceSansPro-extralight.ttf") format("truetype");
+  font-family: "sourcesanspro";
+  src: url("../../fonts/sourcesanspro-extralight.eot");
+  src: url("../../fonts/sourcesanspro-extralight.eot?#iefix") format("embedded-opentype"), url("../../fonts/sourcesanspro-extralight.woff") format("woff"), url("../../fonts/sourcesanspro-extralight.ttf") format("truetype");
   font-weight: 200;
   font-style: normal;
 }
 @font-face {
-  font-family: "SourceSansPro";
-  src: url("../../fonts/SourceSansPro-extralightitalic.eot");
-  src: url("../../fonts/SourceSansPro-extralightitalic.eot?#iefix") format("embedded-opentype"), url("../../fonts/SourceSansPro-extralightitalic.woff") format("woff"), url("../../fonts/SourceSansPro-extralightitalic.ttf") format("truetype");
+  font-family: "sourcesanspro";
+  src: url("../../fonts/sourcesanspro-extralightitalic.eot");
+  src: url("../../fonts/sourcesanspro-extralightitalic.eot?#iefix") format("embedded-opentype"), url("../../fonts/sourcesanspro-extralightitalic.woff") format("woff"), url("../../fonts/sourcesanspro-extralightitalic.ttf") format("truetype");
   font-weight: 200;
   font-style: italic;
 }
 @font-face {
-  font-family: "SourceSansPro";
-  src: url("../../fonts/SourceSansPro-light.eot");
-  src: url("../../fonts/SourceSansPro-light.eot?#iefix") format("embedded-opentype"), url("../../fonts/SourceSansPro-light.woff") format("woff"), url("../../fonts/SourceSansPro-light.ttf") format("truetype");
+  font-family: "sourcesanspro";
+  src: url("../../fonts/sourcesanspro-light.eot");
+  src: url("../../fonts/sourcesanspro-light.eot?#iefix") format("embedded-opentype"), url("../../fonts/sourcesanspro-light.woff") format("woff"), url("../../fonts/sourcesanspro-light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
-  font-family: "SourceSansPro";
-  src: url("../../fonts/SourceSansPro-lightitalic.eot");
-  src: url("../../fonts/SourceSansPro-lightitalic.eot?#iefix") format("embedded-opentype"), url("../../fonts/SourceSansPro-lightitalic.woff") format("woff"), url("../../fonts/SourceSansPro-lightitalic.ttf") format("truetype");
+  font-family: "sourcesanspro";
+  src: url("../../fonts/sourcesanspro-lightitalic.eot");
+  src: url("../../fonts/sourcesanspro-lightitalic.eot?#iefix") format("embedded-opentype"), url("../../fonts/sourcesanspro-lightitalic.woff") format("woff"), url("../../fonts/sourcesanspro-lightitalic.ttf") format("truetype");
   font-weight: 300;
   font-style: italic;
 }
 @font-face {
-  font-family: "SourceSansPro";
-  src: url("../../fonts/SourceSansPro-regular.eot");
-  src: url("../../fonts/SourceSansPro-regular.eot?#iefix") format("embedded-opentype"), url("../../fonts/SourceSansPro-regular.woff") format("woff"), url("../../fonts/SourceSansPro-regular.ttf") format("truetype");
+  font-family: "sourcesanspro";
+  src: url("../../fonts/sourcesanspro-regular.eot");
+  src: url("../../fonts/sourcesanspro-regular.eot?#iefix") format("embedded-opentype"), url("../../fonts/sourcesanspro-regular.woff") format("woff"), url("../../fonts/sourcesanspro-regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: "SourceSansPro";
-  src: url("../../fonts/SourceSansPro-regularitalic.eot");
-  src: url("../../fonts/SourceSansPro-regularitalic.eot?#iefix") format("embedded-opentype"), url("../../fonts/SourceSansPro-regularitalic.woff") format("woff"), url("../../fonts/SourceSansPro-regularitalic.ttf") format("truetype");
+  font-family: "sourcesanspro";
+  src: url("../../fonts/sourcesanspro-regularitalic.eot");
+  src: url("../../fonts/sourcesanspro-regularitalic.eot?#iefix") format("embedded-opentype"), url("../../fonts/sourcesanspro-regularitalic.woff") format("woff"), url("../../fonts/sourcesanspro-regularitalic.ttf") format("truetype");
   font-weight: normal;
   font-style: italic;
 }
 @font-face {
-  font-family: "SourceSansPro";
-  src: url("../../fonts/SourceSansPro-semibold.eot");
-  src: url("../../fonts/SourceSansPro-semibold.eot?#iefix") format("embedded-opentype"), url("../../fonts/SourceSansPro-semibold.woff") format("woff"), url("../../fonts/SourceSansPro-semibold.ttf") format("truetype");
+  font-family: "sourcesanspro";
+  src: url("../../fonts/sourcesanspro-semibold.eot");
+  src: url("../../fonts/sourcesanspro-semibold.eot?#iefix") format("embedded-opentype"), url("../../fonts/sourcesanspro-semibold.woff") format("woff"), url("../../fonts/sourcesanspro-semibold.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
 }
 @font-face {
-  font-family: "SourceSansPro";
-  src: url("../../fonts/SourceSansPro-semibolditalic.eot");
-  src: url("../../fonts/SourceSansPro-semibolditalic.eot?#iefix") format("embedded-opentype"), url("../../fonts/SourceSansPro-semibolditalic.woff") format("woff"), url("../../fonts/SourceSansPro-semibolditalic.ttf") format("truetype");
+  font-family: "sourcesanspro";
+  src: url("../../fonts/sourcesanspro-semibolditalic.eot");
+  src: url("../../fonts/sourcesanspro-semibolditalic.eot?#iefix") format("embedded-opentype"), url("../../fonts/sourcesanspro-semibolditalic.woff") format("woff"), url("../../fonts/sourcesanspro-semibolditalic.ttf") format("truetype");
   font-weight: 600;
   font-style: italic;
 }
 @font-face {
-  font-family: "SourceSansPro";
-  src: url("../../fonts/SourceSansPro-bold.eot");
-  src: url("../../fonts/SourceSansPro-bold.eot?#iefix") format("embedded-opentype"), url("../../fonts/SourceSansPro-bold.woff") format("woff"), url("../../fonts/SourceSansPro-bold.ttf") format("truetype");
+  font-family: "sourcesanspro";
+  src: url("../../fonts/sourcesanspro-bold.eot");
+  src: url("../../fonts/sourcesanspro-bold.eot?#iefix") format("embedded-opentype"), url("../../fonts/sourcesanspro-bold.woff") format("woff"), url("../../fonts/sourcesanspro-bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
-  font-family: "SourceSansPro";
-  src: url("../../fonts/SourceSansPro-bolditalic.eot");
-  src: url("../../fonts/SourceSansPro-bolditalic.eot?#iefix") format("embedded-opentype"), url("../../fonts/SourceSansPro-bolditalic.woff") format("woff"), url("../../fonts/SourceSansPro-bolditalic.ttf") format("truetype");
+  font-family: "sourcesanspro";
+  src: url("../../fonts/sourcesanspro-bolditalic.eot");
+  src: url("../../fonts/sourcesanspro-bolditalic.eot?#iefix") format("embedded-opentype"), url("../../fonts/sourcesanspro-bolditalic.woff") format("woff"), url("../../fonts/sourcesanspro-bolditalic.ttf") format("truetype");
   font-weight: 700;
   font-style: italic;
 }
 @font-face {
-  font-family: "SourceSansPro";
-  src: url("../../fonts/SourceSansPro-black.eot");
-  src: url("../../fonts/SourceSansPro-black.eot?#iefix") format("embedded-opentype"), url("../../fonts/SourceSansPro-black.woff") format("woff"), url("../../fonts/SourceSansPro-black.ttf") format("truetype");
+  font-family: "sourcesanspro";
+  src: url("../../fonts/sourcesanspro-black.eot");
+  src: url("../../fonts/sourcesanspro-black.eot?#iefix") format("embedded-opentype"), url("../../fonts/sourcesanspro-black.woff") format("woff"), url("../../fonts/sourcesanspro-black.ttf") format("truetype");
   font-weight: 800;
   font-style: normal;
 }
 @font-face {
-  font-family: "SourceSansPro";
-  src: url("../../fonts/SourceSansPro-blackitalic.eot");
-  src: url("../../fonts/SourceSansPro-blackitalic.eot?#iefix") format("embedded-opentype"), url("../../fonts/SourceSansPro-blackitalic.woff") format("woff"), url("../../fonts/SourceSansPro-blackitalic.ttf") format("truetype");
+  font-family: "sourcesanspro";
+  src: url("../../fonts/sourcesanspro-blackitalic.eot");
+  src: url("../../fonts/sourcesanspro-blackitalic.eot?#iefix") format("embedded-opentype"), url("../../fonts/sourcesanspro-blackitalic.woff") format("woff"), url("../../fonts/sourcesanspro-blackitalic.ttf") format("truetype");
   font-weight: 800;
   font-style: italic;
 }
