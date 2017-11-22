@@ -1,62 +1,31 @@
-@mixin font-weight($weight) {
-    $newWeight: null;
-    @if $weight == lighter {
-        $newWeight: 200;
+@mixin font-face ($name, $weight, $style){
+    $weightNumber: null;
+    @if $weight == extralight {
+        $weightNumber: 200;
     } @else if $weight == light {
-        $newWeight: 300;
+        $weightNumber: 300;
     } @else if $weight == normal {
-        $newWeight: normal;
+        $weightNumber: normal;
     } @else if $weight == semibold {
-        $newWeight: 600;
+        $weightNumber: 600;
     } @else if $weight == bold {
-        $newWeight: 700;
-    } @else if $weight == bolder {
-        $newWeight: 800;
-    }
-    font-weight: $newWeight;
-}
-
-@mixin font-face ($name, $thatWeight:null, $style:null){
-    $thatNeWeight: null;
-    @if $thatWeight == lighter {
-        $thatNeWeight: extralight;
-    } @else if $thatWeight == light {
-        $thatNeWeight: light;
-    } @else if $thatWeight == normal {
-        $thatNeWeight: regular;
-    } @else if $thatWeight == semibold {
-        $thatNeWeight: semibold;
-    } @else if $thatWeight == bold {
-        $thatNeWeight: bold;
-    } @else if $thatWeight == bolder {
-        $thatNeWeight: black;
+        $weightNumber: 700;
+    } @else if $weight == black {
+        $weightNumber: 800;
     }
 
-    $newStyle: $style;
     @if $style == normal {
-        $newStyle: null;
+        $style: null;
     }
-
+    
+    /* #{$name} #{$weight} #{$style}*/
     @font-face {
         font-family: $name;
-        src: url('../../fonts/#{$name}-#{$thatNeWeight}#{$newStyle}.eot');
-        src: url('../../fonts/#{$name}-#{$thatNeWeight}#{$newStyle}.eot?#iefix') format('embedded-opentype'),
-        url('../../fonts/#{$name}-#{$thatNeWeight}#{$newStyle}.woff') format('woff'),
-        url('../../fonts/#{$name}-#{$thatNeWeight}#{$newStyle}.ttf') format('truetype');
-        @include font-weight($thatWeight);
+        src: url('../../fonts/#{$name}-#{$weight}#{$style}.eot');
+        src: url('../../fonts/#{$name}-#{$weight}#{$style}.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/#{$name}-#{$weight}#{$style}.woff') format('woff'),
+        url('../../fonts/#{$name}-#{$weight}#{$style}.ttf') format('truetype');
+        font-weight: $weightNumber;
         font-style: $style;
     }
 }
-
-@include font-face('sourcesanspro', lighter, normal);
-@include font-face('sourcesanspro', lighter, italic);
-@include font-face('sourcesanspro', light, normal);
-@include font-face('sourcesanspro', light, italic);
-@include font-face('sourcesanspro', normal, normal);
-@include font-face('sourcesanspro', normal, italic);
-@include font-face('sourcesanspro', semibold, normal);
-@include font-face('sourcesanspro', semibold, italic);
-@include font-face('sourcesanspro', bold, normal);
-@include font-face('sourcesanspro', bold, italic);
-@include font-face('sourcesanspro', bolder, normal);
-@include font-face('sourcesanspro', bolder, italic);
